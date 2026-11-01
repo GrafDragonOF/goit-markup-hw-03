@@ -8,11 +8,6 @@
   justify-content: space-between;
 }
 
-.header-nav {
-  display: flex;
-  align-items: center;
-}
-
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -26,6 +21,12 @@
 
 .logo-header {
   color: #2e2f42;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  margin-right: auto; /* Допомагає притиснути контакти вправо, якщо потрібно, або залишаємо flex без цього, оскільки є space-between */
 }
 
 .nav-list {
